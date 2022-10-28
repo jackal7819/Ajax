@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Subrayada&display=swap");
+body {
+  margin: 0;
+  min-height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: -o-linear-gradient(266deg, #b4babe, #2c2b2c);
+  background: linear-gradient(184deg, #b4babe, #2c2b2c);
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main {
+  padding: 20px 30px;
+}
+.main__title {
+  position: relative;
+  color: #446670;
+  text-align: center;
+}
+.main__title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 30px;
+  width: 100%;
+  height: 2px;
+  background: #198783;
+  -webkit-box-shadow: 2px 2px 5px 0px grey;
+          box-shadow: 2px 2px 5px 0px grey;
+}
+
+.exchange {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+@media (max-width: 1200px) {
+  .exchange {
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 300px;
+    gap: 20px;
+  }
+}
+.exchange__button {
+  padding: 10px 38px;
+  background-color: #F4D03F;
+  background-image: -o-linear-gradient(318deg, #F4D03F 0%, #16A085 100%);
+  background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #143133;
+  font-weight: 500;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0 0 5px 0px #223e40;
+          box-shadow: 0 0 5px 0px #223e40;
+}
+.exchange__button:hover {
+  background-color: #F4D03F;
+  background-image: -o-linear-gradient(222deg, #F4D03F 0%, #16A085 100%);
+  background-image: linear-gradient(-132deg, #F4D03F 0%, #16A085 100%);
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  color: #a33e2a;
+}
+
+h4 {
+  margin: 0;
+  width: 300px;
+  padding: 10px 38px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid;
+  background-color: #A9C9FF;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#A9C9FF), to(#FFBBEC));
+  background-image: -o-linear-gradient(top, #A9C9FF 0%, #FFBBEC 100%);
+  background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+}
+
+input {
+  border-radius: 10px;
+  border: 2px #0000ff solid;
+  background-color: #FAACA8;
+  background-image: -o-linear-gradient(71deg, #FAACA8 0%, #DDD6F3 100%);
+  background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+}
