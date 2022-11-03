@@ -1,4 +1,4 @@
-let newValue = document.createElement('h4');
+let newValue = document.createElement('h3');
 let url = 'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json';
 let output = 0;
 let input = document.querySelector('#input');
